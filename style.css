@@ -416,7 +416,7 @@ footer {
 }
 
 .sec4text {
-  margin-bottom: 180px;
+  margin-bottom: 120px;
 }
 
 .sec4text ul {
@@ -450,6 +450,11 @@ footer {
 
 .sec4text2 h3 {
   color: white;
+  white-space: nowrap;
+}
+
+#secWhyHeader {
+  white-space: nowrap;
 }
 
 #elementoWhy {

@@ -7,6 +7,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css"/>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
   <script src="script.js"></script> 
 </head>
 <body>
@@ -47,7 +48,8 @@
         </div>
         <div class="FormBottom">
           <textarea id="textareaInput" name="textareaInput" placeholder="Enter your text here!" rows="5" colls="33" required></textarea>
-          <button type="submit" id="submitButton" form="contactForm">Send</button>
+          <input type="submit" id="submitButton" form="contactForm"  value="Send" onclick='SubmitMessage()'></button>
+          <p id="messageSent"></p>
         </div>
     </form>
   </div>
@@ -65,16 +67,16 @@
     <div class="footerdiv2">
       <p>Menu</p>
       <ul>
-        <li><a href="#" class="nav-link">Home</a></li>
-        <li><a href="#" class="nav-link">About</a></li>
-        <li><a href="#" class="nav-link">Why Openflow</a></li>
-        <li><a href="#" class="nav-link">Chatbot</a></li>
-        <li><a href="#" class="nav-link">Services</a></li>
-        <li><a href="#" class="nav-link">Contact</a></li>
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="why-wideFlow.html" class="nav-link">Why Openflow</a></li>
+        <li><a href="chatbot.html" class="nav-link">Chatbot</a></li>
+        <li><a href="services.html" class="nav-link">Services</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
       </ul>
       <div class="footernetwork">
-        <img src="img/facebook.png" id="fbtag"/>
-        <img src="img/instagram.png"/>
+        <img src="img/facebook.png" id="fbtag" onclick="underConstruction()"/>
+        <img src="img/instagram.png" id="instatag" onclick="underConstruction()"/>
       </div>
     </div>
     <div class="footerdiv3">

@@ -291,7 +291,12 @@ footer {
 }
 
 .footernetwork > #fbtag {
+  cursor: pointer;
   margin-right: 30px;
+}
+
+#instatag {
+  cursor: pointer;
 }
 
 .AllrightsReserved {
@@ -365,7 +370,7 @@ footer {
 }
 
 .secAbout2text p {
-  color: #000;
+  color: white;
 }
 
 .secAbout2text h3 {
@@ -502,6 +507,10 @@ footer {
 
 #secChatbot2 {
   background-color: #0e4afb;
+}
+
+#contentrefChatbot1 {
+  cursor: default;
 }
 
 .AlltextsChatbot {
@@ -755,4 +764,14 @@ input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+#chart_div {
+  margin-top: 50px;
+}
+
+#messageSent {
+  font-size: 14px;
+  white-space: nowrap;
+  transform: translateY(-30px);
 }
